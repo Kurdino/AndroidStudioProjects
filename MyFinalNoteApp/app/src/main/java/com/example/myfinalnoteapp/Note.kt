@@ -4,6 +4,7 @@ import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
@@ -197,6 +198,8 @@ fun AddNoteScreen(navController: NavController, noteList: MutableList<Note>) {
             }
             Spacer(modifier = Modifier.height(16.dp))
             TextField(
+                modifier = Modifier
+                    .height(200.dp),
                 value = description,
                 onValueChange = {
                     description = it
@@ -267,9 +270,11 @@ fun EditNoteScreen(navController: NavController, noteList: Note) {
             )
             Spacer(modifier = Modifier.height(16.dp))
             TextField(
+                modifier = Modifier
+                    .height(200.dp),
                 value = description,
                 onValueChange = { description = it },
-                label = { Text("Details") }
+                label = { Text("Description") }
             )
             Spacer(modifier = Modifier.height(16.dp))
             Button(onClick = {
