@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "410257485731",
+    "project_id": "myconnect4-4d5d3",
+    "storage_bucket": "myconnect4-4d5d3.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:410257485731:android:2c9ee4fa0ad61befd67416",
+        "android_client_info": {
+          "package_name": "com.example.myconnect4"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLWqyqLZFnqV4aEx_yZSJ25p3Wa4gjdA8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
